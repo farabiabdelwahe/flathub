@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>io._1iptv.app</id>
+  <name>1IPTV</name>
+  <summary>Modern IPTV player for M3U playlists and Xtream Codes with hardware-accelerated libmpv</summary>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>LicenseRef-proprietary=https://1iptv.io/terms-of-use</project_license>
+  <developer id="io._1iptv">
+    <name>HOLDAPPS PLUS</name>
+  </developer>
+  <description>
+    <p>
+      1IPTV is a fast, modern desktop IPTV player designed for your personal M3U/M3U8
+      playlists and Xtream Codes services, powered by hardware-accelerated libmpv playback.
+    </p>
+    <p>Key Features:</p>
+    <ul>
+      <li>Multi-Provider Support: Connect Xtream Codes accounts, remote M3U/M3U8 URLs, and local M3U files.</li>
+      <li>Hardware-Accelerated libmpv Engine: Smooth 4K, HEVC, H.264, and HLS/MPEG-TS playback with audio/subtitle track switching and multi-monitor fullscreen.</li>
+      <li>Live TV &amp; EPG: Interactive Electronic Program Guide, inline live preview, fast channel zapping, and catch-up TV support.</li>
+      <li>Movies &amp; Series (VOD): Rich catalog browsing with TMDB metadata, ratings, trailers, episode tracking, and resume playback.</li>
+      <li>Online Subtitles (OpenSubtitles): Search and download subtitles inside the player with adjustable subtitle delay.</li>
+      <li>Offline Downloads &amp; Live Recording: Save VOD movies/episodes offline and record live TV streams to disk.</li>
+      <li>Organization &amp; Search: Instant global search, custom playlist and channel reordering, favorites, and watch history.</li>
+      <li>Cloud Backup &amp; Parental Controls: PIN-protected lock and Google Drive backup/restore for providers, favorites, and settings.</li>
+      <li>19+ Languages: Full localization including English, Arabic (RTL), French, Spanish, German, Italian, Portuguese, Turkish, Polish, Dutch, and more.</li>
+    </ul>
+    <p>
+      Note: 1IPTV is a media player application only. No channels, playlists, media streams, or credentials are bundled with the application.
+    </p>
+  </description>
+  <launchable type="desktop-id">io._1iptv.app.desktop</launchable>
+  <url type="homepage">https://1iptv.io</url>
+  <url type="help">https://1iptv.io</url>
+  <screenshots>
+    <screenshot type="default">
+      <image type="source">https://1iptv.io/screenshots/macos/1.webp</image>
+      <caption>Live TV playback with EPG</caption>
+    </screenshot>
+    <screenshot>
+      <image type="source">https://1iptv.io/screenshots/macos/2.webp</image>
+      <caption>Movies &amp; Series catalog browsing</caption>
+    </screenshot>
+    <screenshot>
+      <image type="source">https://1iptv.io/screenshots/macos/3.webp</image>
+      <caption>Interactive Electronic Program Guide (EPG)</caption>
+    </screenshot>
+    <screenshot>
+      <image type="source">https://1iptv.io/screenshots/macos/4.webp</image>
+      <caption>VOD details and TMDB information</caption>
+    </screenshot>
+    <screenshot>
+      <image type="source">https://1iptv.io/screenshots/macos/5.webp</image>
+      <caption>Subtitles and audio track switching</caption>
+    </screenshot>
+    <screenshot>
+      <image type="source">https://1iptv.io/screenshots/macos/6.webp</image>
+      <caption>Multi-provider playlist management</caption>
+    </screenshot>
+  </screenshots>
+  <content_rating type="oars-1.1" />
+  <Categories>
+    <Category>AudioVideo</Category>
+    <Category>Video</Category>
+    <Category>TV</Category>
+  </Categories>
+  <releases>
+    <release version="1.0.11" date="2026-11-11">
+      <description>
+        <p>Linux desktop release with hardware-accelerated libmpv playback and multi-monitor fullscreen support.</p>
+      </description>
+    </release>
+  </releases>
+</component>

@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=1IPTV
+Comment=IPTV player for M3U playlists and Xtream Codes services
+Exec=1iptv %U
+Icon=io._1iptv.app
+Terminal=false
+Type=Application
+Categories=AudioVideo;Video;Player;TV;
+StartupWMClass=1IPTV
